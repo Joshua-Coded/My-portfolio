@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My | Portfolio </title>
+
+    <link rel="stylesheet" href="app.css">
+
+    <link id="theme-style" rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--Heading  -->
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Joshua Alana</h1>
+            </div>
+
+            <div class="Intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div class="browser-dots" id="dot-1"></div>
+                        <div class="browser-dots" id="dot-2"></div>
+                        <div class="browser-dots" id="dot-3"></div>
+                    </div>
+
+                    <ul id="navigation">
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="left-column">
+                    <img id="profile-pic" src="images/name.jpg">
+                    <h5 style="text-align: center; line-height: 0;">Personalized Theme</h5>
+
+                    <div class="theme-options-wrapper">
+                        <div data-mode="light" class="theme-dot" id="light-mode"></div>
+                        <div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+                        <div data-mode="green" class="theme-dot" id="green-mode"></div>
+                        <div data-mode="purple" class="theme-dot" id="purple-mode"></div>
+                    </div>
+
+                    <p id="setting-note">Theme setting will be saved for <br> your next visit</p>
+                </div>
+
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I Do</h3>
+                            <p> I am a frontend Software Developer.</p>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </Section>
+
+    <!--  -->
+    <section class="s2">
+        <div class="main-container">
+
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+
+                    <p>I build new projects just to tickle my brain</p>
+                    <p></p>
+
+                    <hr>
+                    <h4>TOP EXPERTISE</h4>
+                    <p>Frontend developer with primary focus on React and Node.js <a target="_blank"
+                            href="Alana C.pdf">Download
+                            Reesume</a></p>
+
+                    <div id="skills">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                        <ul>
+                            <li>BOOTSTRAP5</li>
+                            <li>REACT</li>
+                            <li>SASS</li>
+                            <li>NODE.JS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <img id="social_img" src="justMe.png">
+                </div>
+            </div>
+        </div>
+    </Section>
+
+
+    <section class="s3">
+        <div class="main-container">
+            <h3 style="text-align: center;">Some Of My Past Projects</h3>
+
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/DATA.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro"> Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Soluta eos
+                                adipisci reiciendis dolorum veritatis<br>
+                                quam iste minus fugit, eligendi error maiores voluptates, non sapiente laboriosam! Eaque
+                                explicabo id maxime quos.</p>
+                            <a href="./nextPage/Readmore1.html" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/follow.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta eos
+                                adipisci reiciendis dolorum veritatis<br>
+                                quam iste minus fugit, eligendi error maiores voluptates, non sapiente laboriosam! Eaque
+                                explicabo id maxime quos.</p>
+                            <a href="./NextPage2/index.html" target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="./images/ME.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">post title</h6>
+                            <p class="post-intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta eos
+                                adipisci reiciendis dolorum veritatis<br>
+                                quam iste minus fugit, eligendi error maiores voluptates, non sapiente laboriosam! Eaque
+                                explicabo id maxime quos.</p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+
+    <section class="s4">
+        <div class="main-container">
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subjects</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="email" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input type="submit" name="Send" id="submit-btn">
+            </form>
+        </div>
+    </Section>
+
+
+    <Section class="s1">
+        <div class="main-container">
+            <footer>
+                <div class="footer-preview">
+                    @COPY-RIGHT: ALANA JOSHUA 2022
+                </div>
+
+            </footer>
+        </div>
+    </Section>
+
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
